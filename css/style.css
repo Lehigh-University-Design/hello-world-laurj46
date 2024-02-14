@@ -4,12 +4,12 @@
 }
 
 body {
-    font-family: 'IBM Plex Mono', monospace;
-    margin: 20px;
-    font-size: 22px;
-    font-optical-sizing: auto;
-    background-color: (var(background-color));
-    font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: var(--background-color);
+  margin: 1em;
+  font-size: 16px;
 }
 
 
