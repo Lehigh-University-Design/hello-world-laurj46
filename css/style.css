@@ -1,11 +1,20 @@
+:root {
+    
+    
+}
+
 body {
     font-family: 'IBM Plex Mono', monospace;
-margin: 20px;
+    margin: 20px;
+    font-size: 22px;
+    font-optical-sizing: auto;
+    background-color: (var(background-color));
+    font-style: normal;
 }
 
 
 h1 {
-    font-size: 30px;
+    font-size: 2.5em;
 }
 
 .special-headline {
@@ -19,14 +28,19 @@ h1 {
 }
 
 h2, h3, h4 {
+    font-size: 2em;
     font-weight: 300;
     color: darkgreen;
 }
 
 .post {
     border: 3px solid black;
-    margin-bottom: 20px;
-    padding: 10px 20px 10px 20px;
+    margin-bottom: 20em;
+    padding: 10em 20em 10em 20em;
+    
+    .img-container {
+        aspect-ratio: 3/2;
+    }
 
     img {
         width: 100%;
@@ -42,3 +56,11 @@ h2, h3, h4 {
         color:rgb(81, 201, 81);
     }
 }
+
+/* Lab 2 Styles */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
